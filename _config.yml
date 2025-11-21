@@ -1,0 +1,35 @@
+title: Telco Churn MLOps Book
+author: José Menco, Iván Ramirez, Camilo Vargas
+logo: logo.png
+copyright: "2025, Telco Churn MLOps"
+
+repository:
+  url: https://github.com/LasciaStare/Telco-churn-MLOps
+  path_to_book: .
+  branch: main
+html:
+  favicon: icon.png
+  use_issues_button: true
+  use_repository_button: true
+execute:
+  execute_notebooks: "off"
+only_build_toc_files: true
+launch_buttons:
+  notebook_interface: classic
+  binderhub_url: ""
+  thebe: false
+sphinx:
+  config:
+    language: es
+    exclude_patterns:
+      - _build
+      - .venv/**
+      - node_modules/**
+      - Scripts/**
+      - docker/**
+      - app/**
+      - tests/**
+      - .github/**
+      - README.md
+pdf:
+  latex_engine: pdflatex

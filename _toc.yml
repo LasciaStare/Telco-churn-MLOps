@@ -1,0 +1,9 @@
+format: jb-book
+root: intro
+chapters:
+  - file: notebooks/1_eda_preprocessing
+    title: EDA y Preprocesamiento
+  - file: notebooks/2_model_training
+    title: Entrenamiento del modelo
+  - file: notebooks/3_interpretability
+    title: Interpretabilidad del modelo
