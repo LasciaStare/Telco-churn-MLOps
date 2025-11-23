@@ -5,7 +5,11 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import logging
-from schemas import CustomerData, PredictionResponse
+try:
+    # Allow running both as package (uvicorn app.api:app) and as script (python app/api.py)
+    from app.schemas import CustomerData, PredictionResponse
+except ImportError:  # pragma: no cover - fallback for local script execution
+    from schemas import CustomerData, PredictionResponse
 
 # Configuración de logging
 logging.basicConfig(level=logging.INFO)

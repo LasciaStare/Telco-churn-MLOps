@@ -2,7 +2,7 @@
 fastapi
 uvicorn
 pydantic
-jupyter-book
+jupyter-book==0.15.1  # Pin to Sphinx-based builder to keep _build/html output
 
 # Data processing
 pandas

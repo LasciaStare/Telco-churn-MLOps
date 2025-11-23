@@ -24,6 +24,7 @@ sphinx:
     exclude_patterns:
       - _build
       - .venv/**
+      - noteboks/catboost_info/**
       - node_modules/**
       - Scripts/**
       - docker/**
