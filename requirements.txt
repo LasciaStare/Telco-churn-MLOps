@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi
+uvicorn
+pydantic
+jupyter-book
+
+# Data processing
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+catboost
+lightgbm
+
+# Model serialization
+joblib
+
+# Interpretability
+lime
+
+# Visualization (for notebooks)
+matplotlib
+seaborn
+
+# Development and testing
+pytest
+pytest-cov
+flake8
+requests
